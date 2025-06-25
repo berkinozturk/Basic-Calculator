@@ -32,19 +32,19 @@ public class calculator {
         switch (calculation) {
             case 1:
                 ans =num + Double.parseDouble(textField1.getText());
-                textField1.setText(Double.toHexString(ans));
+                textField1.setText(Double.toString(ans));
                 break;
             case 2:
                 ans =num - Double.parseDouble(textField1.getText());
-                textField1.setText(Double.toHexString(ans));
+                textField1.setText(Double.toString(ans));
                 break;
             case 3:
                 ans =num * Double.parseDouble(textField1.getText());
-                textField1.setText(Double.toHexString(ans));
+                textField1.setText(Double.toString(ans));
                 break;
             case 4:
                 ans =num / Double.parseDouble(textField1.getText());
-                textField1.setText(Double.toHexString(ans));
+                textField1.setText(Double.toString(ans));
                 break;
         }
 
